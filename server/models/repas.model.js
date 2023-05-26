@@ -4,6 +4,8 @@ module.exports = (mongoose) => {
       nom: String,
       ingredient: String,
       image: String,
+      restaurant: String,
+      secteur: String,
     },
     { timestamps: true }
   );

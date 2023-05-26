@@ -14,6 +14,8 @@ exports.create = (req, res) => {
     nom: req.body.nom,
     ingredient: req.body.ingredient,
     image: req.body.image,
+    restaurant: req.body.restaurant,
+    secteur: req.body.secteur,
   });
 
   // Save Repas in the database
