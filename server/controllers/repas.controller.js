@@ -126,4 +126,15 @@ exports.deleteAll = (req, res) => {
 };
 
 // Find all image Repass
-// exports.findAllPublished = (req, res) => {};
+// exports.findAllPublished = (req, res) => {
+//   Tutorial.find({ published: true })
+//     .then((data) => {
+//       res.send(data);
+//     })
+//     .catch((err) => {
+//       res.status(500).send({
+//         message:
+//           err.message || "Some error occurred while retrieving tutorials.",
+//       });
+//     });
+// };
